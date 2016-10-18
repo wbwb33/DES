@@ -1,4 +1,5 @@
 # DES
+NIM: 15/381069/PA/16749<br>
 
 # Dokumentasi
 Line 46-64 mengenerate 56-bit key dari 64-bit key dengan tabel PC-1.
