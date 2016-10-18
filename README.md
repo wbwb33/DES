@@ -14,9 +14,13 @@ Line 324-329 XOR K(1)-K(16) masing-masing dengan Ekspansi R(1)-R(16) tadi.<br>
 Line 337-508 hasil XOR tadi akan disubtitusi sehingga menghasilkan string baru dengan panjang 32-bit sesuai dengan ketentuan Sbox.<br>
 Line 513-551 hasil Sbox tadi akan dimodifikasi sesuai dengan Permutation Table sehingga menghasilkan string baru dengan panjang yang sama 32-bit.<br>
 Line 560-571 String baru tadi akan di XOR dengan L(i). String baru ini adalah R(i).<br>
-Line 594-615 Dibuat string 64-bit baru yang merupakan gabungan R(16) dengan L(16).
+Line 594-598 Dibuat string 64-bit baru yang merupakan gabungan R(16) dengan L(16).<br>
+Line 600-615 Gabungan R(16) dan L(16) akan dipermutasi sesuai tabel IP^-1.<br>
+Hasil permutasi inilah yang merupakan ciphertext-nya.<br>
+
 
 
 # Kontribusi
 Mencari referensi http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm<br>
-Mengikuti presentasi
+Membuat line 600-615 (permutasi tabel IP^-1).<br>
+Mengikuti presentasi.
